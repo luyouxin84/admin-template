@@ -1,3 +1,22 @@
-<h1>
-  {{title}}
-</h1>
+<div class="app-body">
+
+  <div class="Xbar">
+    <h3>做一个后台的业务、数据库管理系统，风格参照ng2-admin</h3>
+  </div>
+  <div class="Ybar">
+    这里放链接
+
+    <a [routerLink]="['/page/welcome']">
+      <div class="router-btn">
+        welcome
+      </div>
+    </a>
+    <a [routerLink]="['/route2-link']">route2-text</a>
+
+
+  </div>
+  <div class="container">    
+    <router-outlet name='primary'></router-outlet>
+  </div>
+
+</div>

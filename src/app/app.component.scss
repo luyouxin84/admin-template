@@ -1,0 +1,27 @@
+.app-body{
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .Xbar{
+        width: 100%;
+    }
+    .Ybar{
+        // width: 200px;
+        flex-grow: 1;
+        text-align: center;
+        a{
+            display: block;
+            text-decoration:none;
+            color: white;
+            padding: 10px 0 10px 0;
+        }
+    }
+}
+.container{
+    background-image: url('../assets/img/bg.jpg');
+    min-height: 100%;
+    flex-grow: 9
+}
