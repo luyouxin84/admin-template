@@ -1,0 +1,23 @@
+<div class="login-body">
+  <div class="login-window">
+    <form>
+      <table>
+        <tr>
+          <td>
+            <md-input-container class="example-full-width">
+              <input mdInput placeholder="User name" [(ngModel)]='userName' type="text" name="userName">
+            </md-input-container>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <md-input-container class="example-full-width">
+              <input mdInput placeholder="User password" type="password" [(ngModel)]='userPass' name="userPass">
+            </md-input-container>
+          </td>
+        </tr>
+      </table>
+      <button md-button (click)="login()">login</button>
+    </form>
+  </div>
+</div>

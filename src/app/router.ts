@@ -9,6 +9,7 @@ const routerDeclarer : Routes = [
     },{
         path:'page',
         // pathMatch:'full',
+        outlet:'primary',
         loadChildren:'./page/page.module#PageModule'
     },{
         path: '**',
